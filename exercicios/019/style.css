@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700;800&display=swap');
+
+
+body{
+    background-color: #b0dab2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #557856;
+    font-family: 'Sono', sans-serif;
+
+}
+
+h1{
+
+}
+
+h1#principal{
+    font-size: 35px;
+    text-align: center;
+    background-color: #6A9E6E;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h2{
+
+}
+
+.basico{
+    color: #a0986d;
+}
+.intermediario{
+    color: #70719e;
+}
+.avançado{
+    color: #995d5d;
+}
+
+p{
+   color: #4c5e4c; 
+}

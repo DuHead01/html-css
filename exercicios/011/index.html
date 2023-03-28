@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Exposiçao de fotos</h1>
+    <p>Aumente e diminua o tamanho do seu navegador</p>
+    
+    <picture>
+        
+        <source media="(max-width:750px )" srcset="imagens/foto1.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto2.png" type="image/png">
+        <img src="imagens/foto3.png" alt="fotoG">
+    
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <h2>Vamos reproduzir um audio</h2>
+  <audio preload="metadata" controls>
+    <source src="mídia/iceandfire.mp3" type="audio/mpeg">
+    <source src="mídia/iceandfire.wav" type="audio/wav">
+    <source src="mídia/iceandfire.ogg" type="audio/ogg">
+  </audio>
+    <p>Se nao for possivel ouvir pelo site,<a href="mídia/iceandfire.rar" download="mídia/iceandfire.rar" type="application/rar">aqui está o download</a></p> 
+
+</body>
+</html>

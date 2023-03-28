@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'cursivo';
+    src: url(Routtage.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: burlywood;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin: auto;
+    width: 500px;
+    
+    
+    
+}
+h1{
+    font-family:'cursivo';
+    
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 20px;
+    
+}
+main{
+    background-color: rgba(111, 169, 245, 0.342);
+    border-radius: 10px;
+    text-align: center;
+    
+}
+iframe{
+    box-shadow: 3px 1px 5px blue;
+    border-radius: 10px;
+    position: absolute; 
+	left: 50px;  
+	top: 340px; 
+    
+    
+    
+}
+#botao{
+    position: absolute;
+    left:280px;
+    top: 660px;
+    
+    
+}
+
+#video2{
+    position: absolute;
+    left: 740px;  
+	top: 0px; 
+}
+
+#botao2{
+    position: absolute;
+    left:1030px;
+    top: 660px;
+}
+
