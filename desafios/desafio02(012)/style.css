@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/*GERAL*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    min-height: 100vh;
+    background-color: darkgrey;
+
+}
+/*F GERAL*/
+
+/*HEADER*/
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header p{
+    margin-top: 10px;
+    padding-bottom: 50px;
+
+}
+
+
+header a:hover{
+    text-decoration: underline;
+    background-color: rgba(128, 128, 128, 0.39);
+    transition-duration: .5s;
+    margin-right: -10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
+/*F HEADER*/
+
+/*SECTION*/
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+
+.normal{
+    background-color: white;
+    color: black;
+}
+
+.imagem{
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+.imagem p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.205);
+}
+
+
+
+
+/*F SECTION*/
+
+
+
+
+
+
+
+/*FOOTER*/
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+/*F FOOTER*/
+
