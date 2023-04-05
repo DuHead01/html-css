@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste 02</title>
+    <style>
+        
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #container{
+            position: relative;
+
+            background-color: red;
+            width: 100%;
+            height: 800px;
+        }
+
+        .conteudo{
+            position:absolute;
+
+            color: white;
+            background-color: crimson;
+            padding: 10px;
+            box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.671);
+            
+            width: 300px;
+            height: 300px;
+            
+            text-align: center;
+            
+            border-radius: 15px;
+        }
+
+        .conteudo:hover{
+            background-color:rgb(226, 55, 89) ;
+            padding: 20px;
+            transition-duration: 1s;
+        }
+
+        
+
+        #c1{
+            top: 15%;
+            left:15%;
+
+            transform: translate(-25%, -25%);
+            
+        }
+
+        #c1 p{
+            margin-top: -1px;
+        }
+
+        #c2{
+            top: 15%;
+            left:75%;
+
+            transform: translate(-25%, -25%);
+            
+        }
+        #c3{
+            top: 65%;
+            left:15%;
+
+            transform: translate(-25%, -25%);
+
+        }
+        #c4{
+
+            top: 65%;
+            left:75%;
+
+            transform: translate(-25%, -25%);
+
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article class="conteudo" id="c1"><p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus non eveniet, cum ea exercitationem sequi voluptatibus nemo optio magnam amet, autem molestias quasi aut accusamus, consequuntur dolor ullam quos culpa.</p></article>
+        <article class="conteudo" id="c2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem ipsa eaque tempore itaque hic aperiam, corrupti odit est nihil deserunt quasi natus cumque soluta atque et voluptatibus cupiditate suscipit similique?</article>
+        <article class="conteudo" id="c3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eum autem labore, praesentium repellat sapiente facilis quisquam libero magnam nobis, sit illum. Dolores incidunt temporibus iure impedit, modi consequatur officia!</article>
+        <article class="conteudo" id="c4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, blanditiis voluptate? Rerum ad itaque sint! Explicabo, saepe. Quod laudantium, dolorem illo temporibus eius maiores odit voluptatibus facere minus nemo quisquam.</article>
+    </section>
+</body>
+</html>
