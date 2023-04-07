@@ -52,17 +52,6 @@ header p{
 
 }
 
-
-header a:hover{
-    text-decoration: underline;
-    background-color: rgba(128, 128, 128, 0.39);
-    transition-duration: .5s;
-    margin-right: -10px;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-
 a{
     color: white;
     text-decoration: none;
@@ -83,7 +72,23 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    background-size: cover;
     
+}
+
+section p{
+    padding-bottom: 2em;
+}
+
+#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    
+}
+
+#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
     
 }
 
@@ -96,11 +101,13 @@ section{
 .imagem{
     background-color: rgb(41, 41, 41);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.397);
+    background-attachment: fixed;
 }
 
 .imagem p{
-    width: 600px;
-    background-color: rgba(0, 0, 0, 0.205);
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.473);
 }
 
 
