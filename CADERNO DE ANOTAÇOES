@@ -1,0 +1,50 @@
+<!--
+    
+    Codigos tabela,
+    table,basicamente a div pra sinalizar uma tabela
+    thead = cabeçalho
+    tr,td,th
+    tbody = corpo da tabela
+    tr,td,th
+    tfoot = rodapé
+    tr,td,th
+
+    th = table head = titulo dos dados da tabela 
+    tr = table role *role = linha*
+    td = table data = dados da tebela
+
+    caption = TITULO DA TABELA / legenda da tabela
+
+    scope = col e row
+
+    col = dados que vem abaixo
+    row = dados que vem da mesma linha
+
+    > serve mais para os serviços de busca do google por exemplo, mas nao tem nenhum
+      resultado visual (tipo do rel (external, next, previous) da tag < a src="" >)
+
+    Efeito zebrado
+
+    para fazer se usa uma sub-alguma coisa lá
+        nth:child(2n,3n,4n,odd,even)
+    
+    > serve para fazer alguma coisa uma linha sim uma nao, ou em coisa impares/pares
+
+    border-colapse:colapse
+
+    Se eu quiser que uma celula oculpe duas colunas laterais:
+    > Usar dentro do <td>, <td colspan="2">B</td>
+
+    Se eu quiser que uma celula oculpe duas ou mais colunas verticais:
+    > Usar dentro do <td>, <td rowspan="3">J</td>
+-->
+
+  
+
+
+
+
+
+
+
+
