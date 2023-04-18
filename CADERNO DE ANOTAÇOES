@@ -1,5 +1,8 @@
-<!--
+<!--  LEMBRETE IMPORTANTE CTRL + ;  envelopa a frase com os sinais de <!- ->
     
+              TABELAS TABELAS TABELAS TABELAS TABELAS TABELAS TABELAS TABELAS 
+              TABELAS TABELAS TABELAS TABELAS TABELAS TABELAS TABELAS TABELAS
+
     Codigos tabela,
     table,basicamente a div pra sinalizar uma tabela
     thead = cabeçalho
@@ -19,6 +22,8 @@
 
     col = dados que vem abaixo
     row = dados que vem da mesma linha
+    colgroup = dados que vem abaixo em um conjunto de colunas
+    rowgroup = dados que vem da mesma linha em um conjunto de linhas
 
     > serve mais para os serviços de busca do google por exemplo, mas nao tem nenhum
       resultado visual (tipo do rel (external, next, previous) da tag < a src="" >)
@@ -37,6 +42,39 @@
 
     Se eu quiser que uma celula oculpe duas ou mais colunas verticais:
     > Usar dentro do <td>, <td rowspan="3">J</td>
+
+
+    DESTAQUE DE COLUNA INTEIRA
+
+    Tag = colgroup
+    Com essa tag é possivel classificar cada coluna
+    Col = class: a1
+
+    Exemplo de Codigo:
+    <colgroup>
+            <col  class="nome"> 
+            <col class="sexo">
+            <col class="idade">
+            <col class="profissao">            Isso irá fazer com que a coluna fique por
+    </colgroup>                                inteira cinza de background-color
+    *CSS*
+    col.nome{
+      background-color: grey;
+    }                                           
+    
+    Tem como fazer menos classe de coluna por exemplo uma classe "grupo" e só usar um span"2"
+    por que usando span "2" a configuraçao da classe irá se espalhar para duas colunas ao 
+    invez de uma só
+
+    <colgroup>
+            <col  class="cgrupo" span "2">  a configuraçao dessa classe se espalhara em duas
+            <col class="sexo">
+            <col class="idade">
+            <col class="profissao">            
+    </colgroup> 
+    
+      
+    
 -->
 
   
