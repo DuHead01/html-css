@@ -1,4 +1,5 @@
-<!--  LEMBRETE IMPORTANTE CTRL + ;  envelopa a frase com os sinais de <!- ->
+<!--  LEMBRETE IMPORTANTE: CTRL + ;  envelopa a frase com os sinais de <!- ->
+      LEMBRETE IMPORTANTE: CLASS = .  ID = #
     
               TABELAS TABELAS TABELAS TABELAS TABELAS TABELAS TABELAS TABELAS 
               TABELAS TABELAS TABELAS TABELAS TABELAS TABELAS TABELAS TABELAS
@@ -72,6 +73,11 @@
             <col class="idade">
             <col class="profissao">            
     </colgroup> 
+
+
+    É Possivel fazer a tebela "Rolavel", como assim?
+    > Envelopando a tabela com uma DIV pode-se usar a configuraçao no estilo "Overflow/transbordar"
+    para que se crie uma barra de rolagem na tabela ao invez de rolar toda a viewport do site
     
       
     
