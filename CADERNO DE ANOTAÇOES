@@ -83,6 +83,78 @@
     
 -->
 
+<!-- 
+                MODULO 4 MODULO 4 MODULO 4 MODULO 4 MODULO 4 MODULO 4 MODULO 4 
+                MODULO 4 MODULO 4 MODULO 4 MODULO 4 MODULO 4 MODULO 4 MODULO 4 
+
+ Assuntos: 
+ 
+        - Responsividade em midia queries 
+        - Iframe
+        - Formular formularios
+        - Login responsivo
+        
+
+COMEÇO :)
+
+------------- IFRAME --------------
+
+O que é o I do IFRAME
+
+> INLINE = I  IFRAME = FRAME INLINE
+
+
+> Usando IFRAME
+
+Se voce criar um iframe no meio de um paragrafo por exemplo, vai ver que será criado
+um quadro em branco. Isso é basicamente um IFRAME, um Frame Inline que vai ter alguma 
+informação desejada
+
+No caso acima o site utilizado foi do curso em video( acesse para ver 024/iframe.html)
+
+Tamanho padrao iframe 300px x 150px 
+
+- Parametros de IFRAME > Iframe é personalizavel em CSS :)
+
+        >Frameborder - Só aceita 0 e 1 (Com borda >1< ou sem borda >0<)
+        >Scolling - Auto, yes e no
+        >Height - Altura
+
+Para centralizar um IFRAME é necessario transforma-lo em display:block primeiro
+por que ele é um item INLINE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -->
+
   
 
 
