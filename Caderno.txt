@@ -124,6 +124,27 @@ Para centralizar um IFRAME é necessario transforma-lo em display:block primeiro
 por que ele é um item INLINE
 
 
+        DIA 3 DIA 3 DIA 3 DIA 3 DIA 3 DIA 3 DIA 3 DIA 3 DIA 3 DIA 3 DIA 3 DIA 3 DIA 3 DIA 3 
+        DIA 3 DIA 3 DIA 3 DIA 3 DIA 3 DIA 3 DIA 3 DIA 3 DIA 3 DIA 3 DIA 3 DIA 3 DIA 3 DIA 3 
+
+IFRAME PT.2
+
+Falou do funcionamento de um iframe dentro de uma pasta
+> Basicamente colocar o caminho da pasta no link do IFRAME :3
+
+
+Para carregar uma pagina sua dentro de um iframe na sua pagina (vá na pasta 024/iframe003)
+
+>Primeiro: Ter um iframe na sua pagina
+
+>Segundo: Dar um name para ele (name="frame")
+        > Que só assim é possivel usa-lo na sua propria pagina citando link 
+
+> Codigo ex: <a href="paginasextras/pag2.html" target="frame">Primeira pagina</a>
+                      |caminho do que será mostrado|   |onde vai ser mostrado|
+
+ O NAME SERÁ SEMPRE O MESMO PARA COLOCAR NO TARGET
+
 
 
 
