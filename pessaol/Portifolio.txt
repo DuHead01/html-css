@@ -1,0 +1,34 @@
+Projeto protifólio - Eduardo Soares Filho
+
+Terá duas paginas
+
+1º pagina - Introdução
+
+> Ter uma imagem de fundo{
+    Poucas cores, design simples
+}
+
+> Nome no centro da pagina{
+    Com uma fonte legal e diferente, mas nao tao extravagante
+}
+> Sobre mim/minha descrição{
+    menor que p nome, um pouco mais discreto
+}
+
+> Ter minhas redes sociais profissionais e lugares para contato{
+    Atualmente eu nao tenho exatamente essas coisas, porem da pra
+    fazer e coloca-las futuramente
+}
+
+----------------------------------------------------------------------------------------------
+
+2º pagina - Projetos
+
+> Fazer um link na primeira pagina para acessar essa{
+    em baixo das outras informações
+}
+
+> Obviamente ter os projetos KKKKKKKK
+
+
+
