@@ -146,6 +146,12 @@ Para carregar uma pagina sua dentro de um iframe na sua pagina (vá na pasta 024
  O NAME SERÁ SEMPRE O MESMO PARA COLOCAR NO TARGET
 
 
+        DIA 4 DIA 4 DIA 4 DIA 4 DIA 4 DIA 4 DIA 4 DIA 4 DIA 4 DIA 4 DIA 4 DIA 4 DIA 4 DIA 4 DIA 4
+        DIA 4 DIA 4 DIA 4 DIA 4 DIA 4 DIA 4 DIA 4 DIA 4 DIA 4 DIA 4 DIA 4 DIA 4 DIA 4 DIA 4 DIA 4 
+
+Segurança do IFRAME
+
+
 
 
 
