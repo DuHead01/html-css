@@ -151,8 +151,17 @@ Para carregar uma pagina sua dentro de um iframe na sua pagina (vá na pasta 024
 
 Segurança do IFRAME
 
+>Para impedir açoes maliciosas contra o IFRAME
+        > colocar o parametro sandbox="sandbox" e referrerpolicy="no-referer"
 
+>no-referer = nao capturar dados de navegaçao
+>sandbox = sandbox > todas as configuraçoes de segurança no maximo
 
+CONFIGURAÇOES QUE PODEM SER ATIVADAS PARA O BOM FUNCIONAMENTO DO formularios
+
+>allow-same-origin
+>allow-forms
+>allow-script
 
 
 
