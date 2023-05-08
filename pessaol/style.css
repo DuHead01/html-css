@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+body{
+    background-color: burlywood;
+}
+
+#bola1, #bola2, #bola3{
+    
+    
+
+    border-radius: 50%;
+    margin-bottom: 30px;
+    
+    
+}
+
+#bola1{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 5px;
+}
+
+#bola2{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 5px;
+    top: 85px ;
+}
+
+#bola3{
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 5px;
+    top: 165px;
+}
+
+#celular{
+    background-color: grey;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top:150px;
+    left:553px;
+}
+
+iframe{
+    /* background-color: rgba(255, 255, 255, 0.377); */
+    background-color: rgb(238, 248, 250);
+    width: 220px;
+    height: 450px;
+    border-radius: 20px;
+    border: 1px solid black ;
+    position: absolute;
+    top:170px;
+    left:570px;
+
+}
+
