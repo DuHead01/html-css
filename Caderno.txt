@@ -1,6 +1,11 @@
 <!--  LEMBRETE IMPORTANTE: CTRL + ;  envelopa a frase com os sinais de <!- ->
       LEMBRETE IMPORTANTE: CLASS = .  ID = #
+      LEMBRETE IMPORTANTE: NAO VAI TER TUDO DE MAIS IMPORTANTE AQUI, O RESTO TEM
+                           NO CADERNOOOOOOO
     
+              
+              
+              
               TABELAS TABELAS TABELAS TABELAS TABELAS TABELAS TABELAS TABELAS 
               TABELAS TABELAS TABELAS TABELAS TABELAS TABELAS TABELAS TABELAS
 
@@ -177,6 +182,32 @@ POSITIONS POSITIONS POSITIONS POSITIONS POSITIONS POSITIONS POSITIONS POSITIONS 
 
 O position:absolute
 > nao quebra o site fazendo ele ter uma rolagem lateral
+
+Position absolute e position relative, pelo jeito sao mais hierarquias
+
+> Relative fica no container de fora          } 
+> Absolute fica no container de dentro        }
+
+
+        DIA 6 DIA 6 DIA 6 DIA 6 DIA 6 DIA 6 DIA 6 DIA 6 DIA 6 DIA 6 DIA 6 DIA 6 DIA 6 DIA 6 
+        DIA 6 DIA 6 DIA 6 DIA 6 DIA 6 DIA 6 DIA 6 DIA 6 DIA 6 DIA 6 DIA 6 DIA 6 DIA 6 DIA 6 
+
+Melhor forma para posicionar um conteudo no centro da tela/site
+
+position: absolute;
+    top:50%;
+    left:50%;
+
+    transform: translate(-50%, -50%);
+
+> Isso obviamente depende do tamanho do conteúdo, mas qualquer coisa é apenas ajustar
+
+background-size:cover
+> serve para cobrir corretamente o local desejado
+
+
+
+
 
 
 
