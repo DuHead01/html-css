@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body{
+   background-color: rgb(5, 104, 104);
+}
+
+#hh1{
+    background-color: #343536;
+    width: 100vw;
+    height: 33px;
+    
+    
+}
+
+header{
+    text-align: right;
+    
+}
+
+header a{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+#uma{
+    position: relative;
+    top: 12px;
+    right: 15px;
+}
+
+#bolinha{
+    position: relative;
+    top: 5px;
+
+    height: 20px;
+    
+}
+
+#fotogmail{
+    position: relative;
+    top: 10px;
+    
+
+    border-radius: 100%;
+}
+
+main{
+    width: 800px;
+    margin: auto;
+}
+
+section p{
+    color: rgba(0, 0, 0, 0.600);
+    text-indent: 35px;
+}
+
+#img-google{
+    position: relative;
+    top: 117px;
+    left:4px ;
+
+    text-align: center;
+}
+
+#barra-branca{
+    position: relative;
+    top: 145px;
+    left: 120px;
+
+
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 30px;
+    max-width: 540px;
+    padding: 13px;
+}
+
+#lupa{
+    position: absolute;
+    top: 6px;
+    left: 9px;
+}
+
