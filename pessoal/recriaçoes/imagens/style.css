@@ -78,7 +78,7 @@ section p{
     margin-bottom: 20px;
     background-color: white;
     border-radius: 30px;
-    max-width: 540px;
+    max-width: 535px;
     padding: 13px;
 }
 
@@ -87,4 +87,32 @@ section p{
     top: 6px;
     left: 9px;
 }
+
+#maisg{
+    position: absolute;
+    top: 5px;
+    left: 473px;
+}
+
+#ytbola{
+    position: relative;
+    top: 155px;
+    left: 196px;
+}
+
+#canvabola{
+    position: relative;
+    top: 155px;
+    left: 240px;
+}
+
+#icones-atalho p{
+    position: relative;
+    top: 160px;
+    left: 190px;
+
+    color: white;
+}
+
+
 
