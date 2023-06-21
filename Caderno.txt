@@ -206,8 +206,38 @@ background-size:cover
 > serve para cobrir corretamente o local desejado
 
 
+        FORMULARIO FORMULARIO FORMULARIO FORMULARIO FORMULARIO FORMULARIO FORMULARIO 
+        FORMULARIO FORMULARIO FORMULARIO FORMULARIO FORMULARIO FORMULARIO FORMULARIO  
 
+O formulario tem que ser feito entre as tags <form></form>
 
+EX:
+
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form>
+        <p>Nome: <input type="text" name="" id=""></p>
+        <p>Sobrenome: <input type="text" name="" id=""></p>
+
+    </form>
+</body>
+
+Exemplo de formulario simples:
+
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form>
+        <p>Nome: <input type="text" name="nome" id="nome"></p>
+        <p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+
+Diferença do name para id no formulario
+> Para a outra linguagem que voce for usar no formulario funcionar é necessario que o objeto de entrada tenha uma indentificaçao/"nome"
+
+id = IMPORTANTE para javascript
+name = IMPORTANTE para php e label
 
 
 
